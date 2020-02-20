@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-redis-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulobressan/nodejs-redis-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulobressan/nodejs-redis-api/issues"
+  },
+  "homepage": "https://github.com/paulobressan/nodejs-redis-api#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "express": "^4.17.1",
+    "http-status": "^1.4.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
